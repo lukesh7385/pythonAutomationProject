@@ -44,9 +44,4 @@ class TestLogin:
         self.driver.close()
         self.log.info("TestCase test_login_002 is Completed")
 
-        # def testDemoLog(self):
-        #     self.log.debug("This is debug")
-        #     self.log.info("This is info")
-        #     self.log.warning("This is warning")
-        #     self.log.error("This is error")
-        #     self.log.critical("This is critical")
+        

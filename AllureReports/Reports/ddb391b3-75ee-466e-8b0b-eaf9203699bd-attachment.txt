@@ -1,0 +1,20 @@
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:21 TestCase test_login_DDT_003 is started
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:23 Invoking browser
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:24 Navigating to URL
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:35 Entering email id-->test101@credence.in
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:37 Entering password-->Test@111
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:39 Clicking on login button
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:35 Entering email id-->test101@credence.in12345
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:37 Entering password-->Test@111
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:39 Clicking on login button
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:35 Entering email id-->test101@credence.in
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:37 Entering password-->Test@111121
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:39 Clicking on login button
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:35 Entering email id-->test101@credence.in12345
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:37 Entering password-->Test@1111
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:39 Clicking on login button
+[32mINFO    [0m TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link
