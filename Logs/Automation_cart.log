@@ -1,0 +1,786 @@
+07/14/2023 07:07:44 PM |      INFO | test_UserLogin.py:17 | Testcase test_login_002 is started
+07/14/2023 07:07:44 PM |      INFO | test_UserLogin.py:19 | Invoking the browser
+07/14/2023 07:07:44 PM |      INFO | test_UserLogin.py:20 | Opening the Url
+07/14/2023 07:07:45 PM |      INFO | test_UserLogin.py:23 | Clicking on login link
+07/14/2023 07:07:45 PM |      INFO | test_UserLogin.py:25 | Entering the username -->test101@credence.in
+07/14/2023 07:07:45 PM |      INFO | test_UserLogin.py:27 | Entering the password -->Test@111
+07/14/2023 07:07:46 PM |      INFO | test_UserLogin.py:29 | Clicking on login button
+07/14/2023 07:07:46 PM |      INFO | test_UserLogin.py:33 | TestCase test_login_002 is Passed 
+07/14/2023 07:07:46 PM |      INFO | test_UserLogin.py:41 | TestCase test_login_002 is Completed
+07/14/2023 07:07:49 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 07:07:49 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 07:07:49 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 07:07:49 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 07:07:50 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 07:07:50 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 07:07:51 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 07:07:54 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 07:07:54 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 07:07:54 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 07:07:54 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 07:07:54 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 07:07:54 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 07:07:55 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 07:08:05 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 07:08:05 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 07:08:05 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 07:09:05 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 07:09:20 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+07/14/2023 07:09:20 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+07/14/2023 07:09:20 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+07/14/2023 07:09:20 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+07/14/2023 07:09:20 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test101@credence.in
+07/14/2023 07:09:20 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+07/14/2023 07:09:21 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+07/14/2023 07:09:21 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+07/14/2023 07:09:21 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+07/14/2023 07:09:25 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+07/14/2023 07:09:25 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+07/14/2023 07:09:25 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+07/14/2023 07:09:25 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+07/14/2023 07:09:25 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test1010@credence.in
+07/14/2023 07:09:25 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+07/14/2023 07:09:26 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+07/14/2023 07:09:36 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+07/14/2023 07:09:36 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+07/14/2023 07:09:40 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+07/14/2023 07:09:40 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+07/14/2023 07:09:40 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+07/14/2023 07:09:40 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+07/14/2023 07:09:40 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test101@credence.in
+07/14/2023 07:09:40 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@1111
+07/14/2023 07:09:41 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+07/14/2023 07:09:51 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+07/14/2023 07:09:51 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+07/14/2023 07:09:55 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+07/14/2023 07:09:55 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+07/14/2023 07:09:55 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+07/14/2023 07:09:56 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+07/14/2023 07:09:56 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test1010@credence.in
+07/14/2023 07:09:56 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@1111
+07/14/2023 07:09:56 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+07/14/2023 07:10:06 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+07/14/2023 07:10:07 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+07/14/2023 07:10:11 PM |      INFO | test_UserRegistration.py:15 | TestCase test_registration_001 is started
+07/14/2023 07:10:11 PM |      INFO | test_UserRegistration.py:17 | Invoking the browser
+07/14/2023 07:10:11 PM |      INFO | test_UserRegistration.py:18 | Opening URL
+07/14/2023 07:10:11 PM |      INFO | test_UserRegistration.py:21 | Clicking on registration link
+07/14/2023 07:10:11 PM |      INFO | test_UserRegistration.py:23 | Entering name
+07/14/2023 07:10:11 PM |      INFO | test_UserRegistration.py:25 | Entering Email
+07/14/2023 07:10:11 PM |      INFO | test_UserRegistration.py:27 | Entering password
+07/14/2023 07:10:11 PM |      INFO | test_UserRegistration.py:29 | Conforming password
+07/14/2023 07:10:12 PM |      INFO | test_UserRegistration.py:31 | Clicking on registration button
+07/14/2023 07:10:12 PM |      INFO | test_UserRegistration.py:34 | TestCase test_registration_001 is Passed
+07/14/2023 07:10:12 PM |      INFO | test_UserRegistration.py:42 | TestCase test_registration_001 is completed
+07/14/2023 07:40:51 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 07:40:51 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 07:40:51 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 07:40:51 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 07:40:51 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 07:40:52 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 07:40:53 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:09:14 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:09:14 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:09:14 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:09:15 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:09:15 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:09:15 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:09:17 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:09:21 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:09:21 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:09:21 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:09:21 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:09:21 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:09:21 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:09:22 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:09:32 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:09:32 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:09:32 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:09:32 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:09:32 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:09:32 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:09:33 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:09:43 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:09:43 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:09:43 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:09:44 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:09:44 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:09:44 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:09:44 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:09:54 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:09:54 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:09:54 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:09:55 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:12:31 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:12:31 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:12:31 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:12:31 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:12:32 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:12:32 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:12:36 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:12:42 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:12:42 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:12:42 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:12:43 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:12:43 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:12:43 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:12:57 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:13:07 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:13:07 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:13:07 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:13:08 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:13:08 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:13:08 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:13:10 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:13:20 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:13:20 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:13:20 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:13:20 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:13:20 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:13:21 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:13:21 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:13:31 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:13:31 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:13:31 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:13:32 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:14:37 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:14:37 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:14:37 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:14:37 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:14:37 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:14:37 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:14:39 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:14:42 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:14:42 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:14:42 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:14:42 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:14:42 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:14:42 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:14:43 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:14:53 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:14:53 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:14:53 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:14:53 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:14:53 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:14:54 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:14:54 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:15:04 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:15:04 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:15:04 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:15:05 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:15:05 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:15:05 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:15:06 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:15:16 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:15:16 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:15:16 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:15:16 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:19:15 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:19:15 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:19:15 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:19:19 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:19:19 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:19:19 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:19:26 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:19:30 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:19:30 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:19:30 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:19:30 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:19:31 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:19:31 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:19:32 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:19:42 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:19:42 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:19:42 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:19:44 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:19:44 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:19:44 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:19:45 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:19:55 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:19:55 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:19:55 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:19:56 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:19:56 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:19:56 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:19:58 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:20:08 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:20:08 PM |      INFO | test_UserLogin_DDT_py.py:70 | ********* End of Login DDT Test *********
+07/14/2023 08:20:08 PM |      INFO | test_UserLogin_DDT_py.py:71 | ************** Completed TestCase test_login_DDT_003 **************
+07/14/2023 08:20:11 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:28:09 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:28:09 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:28:09 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:28:10 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:28:10 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:28:10 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:28:15 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:28:55 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:28:55 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:28:55 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:28:57 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:28:57 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:28:57 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:29:00 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:29:04 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:29:04 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:29:04 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:29:05 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:29:26 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:29:26 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:29:26 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:29:27 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:30:17 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:30:17 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:30:18 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:30:18 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:30:40 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:32:07 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:32:07 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:32:07 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:32:08 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:32:08 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:32:08 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:32:09 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:32:13 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:32:13 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:32:13 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:32:14 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:32:36 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:32:36 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:32:36 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:32:37 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:32:57 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:32:57 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:32:57 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:32:58 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:33:18 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:33:28 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:33:28 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:33:28 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:33:29 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:33:29 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:33:29 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:33:30 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:33:32 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:33:33 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:33:33 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:33:33 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:33:33 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:33:54 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:33:54 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:33:54 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:33:54 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:33:54 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:34:15 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:34:15 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:34:15 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:34:15 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:34:15 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:34:36 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:34:36 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:38:30 PM |      INFO | test_UserLogin.py:17 | Testcase test_login_002 is started
+07/14/2023 08:38:30 PM |      INFO | test_UserLogin.py:19 | Invoking the browser
+07/14/2023 08:38:30 PM |      INFO | test_UserLogin.py:20 | Opening the Url
+07/14/2023 08:38:31 PM |      INFO | test_UserLogin.py:23 | Clicking on login link
+07/14/2023 08:38:31 PM |      INFO | test_UserLogin.py:25 | Entering the username -->test101@credence.in
+07/14/2023 08:38:31 PM |      INFO | test_UserLogin.py:27 | Entering the password -->Test@111
+07/14/2023 08:38:32 PM |      INFO | test_UserLogin.py:29 | Clicking on login button
+07/14/2023 08:38:32 PM |      INFO | test_UserLogin.py:33 | TestCase test_login_002 is Passed 
+07/14/2023 08:38:32 PM |      INFO | test_UserLogin.py:41 | TestCase test_login_002 is Completed
+07/14/2023 08:38:37 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:38:37 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:38:37 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:38:38 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:38:38 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:38:38 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:38:39 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:38:42 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:38:42 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:38:42 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:38:42 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:38:42 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:39:03 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:39:03 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:39:03 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:39:03 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:39:03 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:39:24 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:39:24 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:39:24 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:39:24 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:39:25 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:39:46 PM |      INFO | test_UserLogin_DDT_py.py:64 | TestCases test_login_DDT_003 is passed
+07/14/2023 08:39:46 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:39:57 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+07/14/2023 08:39:57 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+07/14/2023 08:39:57 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+07/14/2023 08:39:57 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+07/14/2023 08:39:57 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test101@credence.in
+07/14/2023 08:39:57 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+07/14/2023 08:39:59 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+07/14/2023 08:39:59 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+07/14/2023 08:39:59 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+07/14/2023 08:40:08 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+07/14/2023 08:40:08 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+07/14/2023 08:40:08 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+07/14/2023 08:40:08 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+07/14/2023 08:40:08 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test1010@credence.in
+07/14/2023 08:40:08 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+07/14/2023 08:40:09 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+07/14/2023 08:40:19 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+07/14/2023 08:40:19 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+07/14/2023 08:40:25 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+07/14/2023 08:40:25 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+07/14/2023 08:40:25 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+07/14/2023 08:40:26 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+07/14/2023 08:40:26 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test101@credence.in
+07/14/2023 08:40:26 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@1111
+07/14/2023 08:40:27 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+07/14/2023 08:40:37 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+07/14/2023 08:40:37 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+07/14/2023 08:40:42 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+07/14/2023 08:40:42 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+07/14/2023 08:40:42 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+07/14/2023 08:40:42 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+07/14/2023 08:40:42 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test1010@credence.in
+07/14/2023 08:40:42 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@1111
+07/14/2023 08:40:43 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+07/14/2023 08:40:53 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+07/14/2023 08:40:53 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+07/14/2023 08:40:58 PM |      INFO | test_UserRegistration.py:15 | TestCase test_registration_001 is started
+07/14/2023 08:40:58 PM |      INFO | test_UserRegistration.py:17 | Invoking the browser
+07/14/2023 08:40:58 PM |      INFO | test_UserRegistration.py:18 | Opening URL
+07/14/2023 08:40:58 PM |      INFO | test_UserRegistration.py:21 | Clicking on registration link
+07/14/2023 08:40:58 PM |      INFO | test_UserRegistration.py:23 | Entering name
+07/14/2023 08:40:58 PM |      INFO | test_UserRegistration.py:25 | Entering Email
+07/14/2023 08:40:58 PM |      INFO | test_UserRegistration.py:27 | Entering password
+07/14/2023 08:40:58 PM |      INFO | test_UserRegistration.py:29 | Conforming password
+07/14/2023 08:41:00 PM |      INFO | test_UserRegistration.py:31 | Clicking on registration button
+07/14/2023 08:41:00 PM |      INFO | test_UserRegistration.py:34 | TestCase test_registration_001 is Passed
+07/14/2023 08:41:00 PM |      INFO | test_UserRegistration.py:42 | TestCase test_registration_001 is completed
+07/14/2023 08:52:29 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:52:29 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:52:29 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:52:29 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:52:29 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:52:29 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:52:31 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:52:35 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:52:35 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:52:35 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:52:36 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:52:59 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:52:59 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:52:59 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:53:01 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:53:22 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:53:22 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:53:22 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:53:23 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:53:47 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:56:03 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 08:56:03 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 08:56:03 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 08:56:04 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:56:04 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:56:04 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:56:07 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:56:10 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:56:10 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:56:10 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 08:56:11 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:56:33 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:56:33 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 08:56:33 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:56:35 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:56:57 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 08:56:57 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in1
+07/14/2023 08:56:57 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 08:56:58 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 08:57:19 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 09:00:06 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+07/14/2023 09:00:06 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+07/14/2023 09:00:06 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+07/14/2023 09:00:07 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 09:00:07 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 09:00:07 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 09:00:09 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 09:00:13 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 09:00:13 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in12345
+07/14/2023 09:00:13 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+07/14/2023 09:00:14 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 09:00:35 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 09:00:35 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+07/14/2023 09:00:35 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111121
+07/14/2023 09:00:36 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 09:00:59 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+07/14/2023 09:00:59 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in12345
+07/14/2023 09:00:59 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+07/14/2023 09:01:00 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+07/14/2023 09:01:22 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:11:44 PM |      INFO | test_UserLogin.py:17 | Testcase test_login_002 is started
+08/03/2023 04:11:44 PM |      INFO | test_UserLogin.py:19 | Invoking the browser
+08/03/2023 04:11:44 PM |      INFO | test_UserLogin.py:20 | Opening the Url
+08/03/2023 04:11:47 PM |      INFO | test_UserLogin.py:23 | Clicking on login link
+08/03/2023 04:11:47 PM |      INFO | test_UserLogin.py:25 | Entering the username -->test101@credence.in
+08/03/2023 04:11:47 PM |      INFO | test_UserLogin.py:27 | Entering the password -->Test@111
+08/03/2023 04:11:53 PM |      INFO | test_UserLogin.py:29 | Clicking on login button
+08/03/2023 04:11:53 PM |      INFO | test_UserLogin.py:33 | TestCase test_login_002 is Passed 
+08/03/2023 04:11:53 PM |      INFO | test_UserLogin.py:41 | TestCase test_login_002 is Completed
+08/03/2023 04:12:02 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+08/03/2023 04:12:02 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+08/03/2023 04:12:02 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+08/03/2023 04:12:03 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:12:03 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+08/03/2023 04:12:03 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+08/03/2023 04:12:08 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 04:12:13 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:12:13 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in12345
+08/03/2023 04:12:13 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+08/03/2023 04:12:14 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 04:12:36 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:12:36 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+08/03/2023 04:12:36 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111121
+08/03/2023 04:12:37 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 04:12:58 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:12:58 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in12345
+08/03/2023 04:12:58 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+08/03/2023 04:12:59 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 04:13:20 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:13:26 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 04:13:26 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 04:13:26 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 04:13:27 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 04:13:27 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test101@credence.in
+08/03/2023 04:13:27 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+08/03/2023 04:13:29 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 04:13:29 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 04:13:29 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 04:13:34 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 04:13:34 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 04:13:34 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 04:13:35 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 04:13:35 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test1010@credence.in
+08/03/2023 04:13:35 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+08/03/2023 04:13:36 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 04:13:46 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 04:13:46 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 04:13:51 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 04:13:51 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 04:13:51 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 04:13:51 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 04:13:51 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test101@credence.in
+08/03/2023 04:13:51 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@1111
+08/03/2023 04:13:53 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 04:14:03 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 04:14:03 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 04:14:07 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 04:14:07 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 04:14:07 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 04:14:08 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 04:14:08 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test1010@credence.in
+08/03/2023 04:14:08 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@1111
+08/03/2023 04:14:10 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 04:14:20 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 04:14:20 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 04:14:26 PM |      INFO | test_UserRegistration.py:15 | TestCase test_registration_001 is started
+08/03/2023 04:14:26 PM |      INFO | test_UserRegistration.py:17 | Invoking the browser
+08/03/2023 04:14:26 PM |      INFO | test_UserRegistration.py:18 | Opening URL
+08/03/2023 04:14:26 PM |      INFO | test_UserRegistration.py:21 | Clicking on registration link
+08/03/2023 04:14:27 PM |      INFO | test_UserRegistration.py:23 | Entering name
+08/03/2023 04:14:27 PM |      INFO | test_UserRegistration.py:25 | Entering Email
+08/03/2023 04:14:27 PM |      INFO | test_UserRegistration.py:27 | Entering password
+08/03/2023 04:14:28 PM |      INFO | test_UserRegistration.py:29 | Conforming password
+08/03/2023 04:14:30 PM |      INFO | test_UserRegistration.py:31 | Clicking on registration button
+08/03/2023 04:14:30 PM |      INFO | test_UserRegistration.py:34 | TestCase test_registration_001 is Passed
+08/03/2023 04:14:30 PM |      INFO | test_UserRegistration.py:42 | TestCase test_registration_001 is completed
+08/03/2023 04:32:11 PM |      INFO | test_UserRegistration.py:15 | TestCase test_registration_001 is started
+08/03/2023 04:32:11 PM |      INFO | test_UserRegistration.py:17 | Invoking the browser
+08/03/2023 04:32:11 PM |      INFO | test_UserRegistration.py:18 | Opening URL
+08/03/2023 04:32:37 PM |      INFO | test_UserRegistration.py:21 | Clicking on registration link
+08/03/2023 04:32:37 PM |      INFO | test_UserRegistration.py:23 | Entering name
+08/03/2023 04:32:37 PM |      INFO | test_UserRegistration.py:25 | Entering Email
+08/03/2023 04:32:37 PM |      INFO | test_UserRegistration.py:27 | Entering password
+08/03/2023 04:32:38 PM |      INFO | test_UserRegistration.py:29 | Conforming password
+08/03/2023 04:32:40 PM |      INFO | test_UserRegistration.py:31 | Clicking on registration button
+08/03/2023 04:32:40 PM |      INFO | test_UserRegistration.py:34 | TestCase test_registration_001 is Passed
+08/03/2023 04:32:40 PM |      INFO | test_UserRegistration.py:42 | TestCase test_registration_001 is completed
+08/03/2023 04:36:01 PM |      INFO | test_UserLogin.py:17 | Testcase test_login_002 is started
+08/03/2023 04:36:01 PM |      INFO | test_UserLogin.py:19 | Invoking the browser
+08/03/2023 04:36:01 PM |      INFO | test_UserLogin.py:20 | Opening the Url
+08/03/2023 04:36:02 PM |      INFO | test_UserLogin.py:23 | Clicking on login link
+08/03/2023 04:36:02 PM |      INFO | test_UserLogin.py:25 | Entering the username -->test101@credence.in
+08/03/2023 04:36:02 PM |      INFO | test_UserLogin.py:27 | Entering the password -->Test@111
+08/03/2023 04:36:04 PM |      INFO | test_UserLogin.py:29 | Clicking on login button
+08/03/2023 04:36:04 PM |      INFO | test_UserLogin.py:33 | TestCase test_login_002 is Passed 
+08/03/2023 04:36:04 PM |      INFO | test_UserLogin.py:41 | TestCase test_login_002 is Completed
+08/03/2023 04:36:09 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+08/03/2023 04:36:09 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+08/03/2023 04:36:09 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+08/03/2023 04:36:10 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:36:10 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+08/03/2023 04:36:10 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+08/03/2023 04:36:12 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 04:36:16 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:36:16 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in12345
+08/03/2023 04:36:17 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+08/03/2023 04:36:18 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 04:36:39 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:36:39 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+08/03/2023 04:36:39 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111121
+08/03/2023 04:36:40 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 04:37:02 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:37:02 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in12345
+08/03/2023 04:37:02 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+08/03/2023 04:37:03 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 04:37:24 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 04:37:33 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 04:37:33 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 04:37:33 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 04:37:34 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 04:37:34 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test101@credence.in
+08/03/2023 04:37:34 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+08/03/2023 04:37:37 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 04:37:37 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 04:37:37 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 04:37:46 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 04:37:46 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 04:37:46 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 04:37:47 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 04:37:47 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test1010@credence.in
+08/03/2023 04:37:47 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+08/03/2023 04:37:48 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 04:37:58 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 04:37:58 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 09:51:50 PM |      INFO | test_UserRegistration.py:15 | TestCase test_registration_001 is started
+08/03/2023 09:51:50 PM |      INFO | test_UserRegistration.py:17 | Invoking the browser
+08/03/2023 09:51:50 PM |      INFO | test_UserRegistration.py:18 | Opening URL
+08/03/2023 09:51:51 PM |      INFO | test_UserRegistration.py:21 | Clicking on registration link
+08/03/2023 09:51:51 PM |      INFO | test_UserRegistration.py:23 | Entering name
+08/03/2023 09:51:51 PM |      INFO | test_UserRegistration.py:25 | Entering Email
+08/03/2023 09:51:51 PM |      INFO | test_UserRegistration.py:27 | Entering password
+08/03/2023 09:51:51 PM |      INFO | test_UserRegistration.py:29 | Conforming password
+08/03/2023 09:51:56 PM |      INFO | test_UserRegistration.py:31 | Clicking on registration button
+08/03/2023 09:51:56 PM |      INFO | test_UserRegistration.py:34 | TestCase test_registration_001 is Passed
+08/03/2023 09:51:57 PM |      INFO | test_UserRegistration.py:42 | TestCase test_registration_001 is completed
+08/03/2023 10:13:22 PM |      INFO | test_UserLogin.py:20 | Testcase test_login_002 is started
+08/03/2023 10:13:22 PM |      INFO | test_UserLogin.py:22 | Invoking the browser
+08/03/2023 10:13:22 PM |      INFO | test_UserLogin.py:23 | Opening the Url
+08/03/2023 10:13:23 PM |      INFO | test_UserLogin.py:26 | Clicking on login link
+08/03/2023 10:13:23 PM |      INFO | test_UserLogin.py:28 | Entering the username -->test101@credence.in
+08/03/2023 10:13:23 PM |      INFO | test_UserLogin.py:30 | Entering the password -->Test@111
+08/03/2023 10:13:25 PM |      INFO | test_UserLogin.py:32 | Clicking on login button
+08/03/2023 10:13:25 PM |      INFO | test_UserLogin.py:36 | TestCase test_login_002 is Passed 
+08/03/2023 10:13:25 PM |      INFO | test_UserLogin.py:46 | TestCase test_login_002 is Completed
+08/03/2023 10:13:33 PM |      INFO | test_UserLogin_DDT_py.py:19 | TestCase test_login_DDT_003 is started
+08/03/2023 10:13:33 PM |      INFO | test_UserLogin_DDT_py.py:21 | Invoking browser
+08/03/2023 10:13:33 PM |      INFO | test_UserLogin_DDT_py.py:22 | Navigating to URL
+08/03/2023 10:13:33 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 10:13:33 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+08/03/2023 10:13:33 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+08/03/2023 10:13:35 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 10:13:39 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 10:13:39 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in12345
+08/03/2023 10:13:39 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111
+08/03/2023 10:13:40 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 10:14:02 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 10:14:02 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in
+08/03/2023 10:14:02 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@111121
+08/03/2023 10:14:03 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 10:14:24 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 10:14:24 PM |      INFO | test_UserLogin_DDT_py.py:33 | Entering email id-->test101@credence.in12345
+08/03/2023 10:14:24 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering password-->Test@1111
+08/03/2023 10:14:25 PM |      INFO | test_UserLogin_DDT_py.py:37 | Clicking on login button
+08/03/2023 10:14:46 PM |      INFO | test_UserLogin_DDT_py.py:31 | Clicking on login link
+08/03/2023 10:15:07 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 10:15:07 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 10:15:07 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 10:15:08 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 10:15:08 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test101@credence.in
+08/03/2023 10:15:08 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+08/03/2023 10:15:17 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 10:15:17 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 10:15:17 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 10:15:25 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 10:15:25 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 10:15:25 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 10:15:25 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 10:15:25 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test1010@credence.in
+08/03/2023 10:15:25 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@111
+08/03/2023 10:15:29 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 10:15:39 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 10:15:40 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 10:15:52 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 10:15:52 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 10:15:52 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 10:15:53 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 10:15:53 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test101@credence.in
+08/03/2023 10:15:53 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@1111
+08/03/2023 10:15:55 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 10:16:05 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 10:16:06 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 10:16:23 PM |      INFO | test_UserLogin_Params.py:14 | TestCases test_login_params_003 is stared
+08/03/2023 10:16:23 PM |      INFO | test_UserLogin_Params.py:16 | Invoking browser
+08/03/2023 10:16:23 PM |      INFO | test_UserLogin_Params.py:17 | Navigating to Url
+08/03/2023 10:16:24 PM |      INFO | test_UserLogin_Params.py:20 | Clicking on login link
+08/03/2023 10:16:24 PM |      INFO | test_UserLogin_Params.py:22 | Entering Email -->test1010@credence.in
+08/03/2023 10:16:24 PM |      INFO | test_UserLogin_Params.py:24 | Entering Password-->Test@1111
+08/03/2023 10:16:26 PM |      INFO | test_UserLogin_Params.py:26 | Clicking on login button
+08/03/2023 10:16:36 PM |      INFO | test_UserLogin_Params.py:29 | TestCases test_login_params_003 is Passed
+08/03/2023 10:16:36 PM |      INFO | test_UserLogin_Params.py:37 | TestCases test_login_003 is completed
+08/03/2023 10:17:00 PM |      INFO | test_UserRegistration.py:15 | TestCase test_registration_001 is started
+08/03/2023 10:17:00 PM |      INFO | test_UserRegistration.py:17 | Invoking the browser
+08/03/2023 10:17:00 PM |      INFO | test_UserRegistration.py:18 | Opening URL
+08/03/2023 10:17:03 PM |      INFO | test_UserRegistration.py:21 | Clicking on registration link
+08/03/2023 10:17:03 PM |      INFO | test_UserRegistration.py:23 | Entering name
+08/03/2023 10:17:03 PM |      INFO | test_UserRegistration.py:25 | Entering Email
+08/03/2023 10:17:04 PM |      INFO | test_UserRegistration.py:27 | Entering password
+08/03/2023 10:17:04 PM |      INFO | test_UserRegistration.py:29 | Conforming password
+08/03/2023 10:17:05 PM |      INFO | test_UserRegistration.py:31 | Clicking on registration button
+08/03/2023 10:17:05 PM |      INFO | test_UserRegistration.py:34 | TestCase test_registration_001 is Passed
+08/03/2023 10:17:06 PM |      INFO | test_UserRegistration.py:42 | TestCase test_registration_001 is completed
+08/03/2023 10:30:33 PM |      INFO | test_UserLogin.py:19 | Testcase test_login_002 is started
+08/03/2023 10:30:33 PM |      INFO | test_UserLogin.py:21 | Invoking the browser
+08/03/2023 10:30:33 PM |      INFO | test_UserLogin.py:22 | Opening the Url
+08/03/2023 10:30:34 PM |      INFO | test_UserLogin.py:25 | Clicking on login link
+08/03/2023 10:30:34 PM |      INFO | test_UserLogin.py:27 | Entering the username -->test101@credence.in
+08/03/2023 10:30:35 PM |      INFO | test_UserLogin.py:29 | Entering the password -->Test@111
+08/03/2023 10:30:37 PM |      INFO | test_UserLogin.py:31 | Clicking on login button
+08/03/2023 10:30:37 PM |      INFO | test_UserLogin.py:35 | TestCase test_login_002 is Passed 
+08/03/2023 10:30:38 PM |      INFO | test_UserLogin.py:45 | TestCase test_login_002 is Completed
+08/03/2023 10:30:48 PM |      INFO | test_UserLogin_DDT_py.py:21 | TestCase test_login_DDT_003 is started
+08/03/2023 10:30:48 PM |      INFO | test_UserLogin_DDT_py.py:23 | Invoking browser
+08/03/2023 10:30:48 PM |      INFO | test_UserLogin_DDT_py.py:24 | Navigating to URL
+08/03/2023 10:30:49 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/03/2023 10:30:49 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering email id-->test101@credence.in
+08/03/2023 10:30:49 PM |      INFO | test_UserLogin_DDT_py.py:37 | Entering password-->Test@111
+08/03/2023 10:30:52 PM |      INFO | test_UserLogin_DDT_py.py:39 | Clicking on login button
+08/03/2023 10:30:56 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/03/2023 10:30:56 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering email id-->test101@credence.in12345
+08/03/2023 10:30:56 PM |      INFO | test_UserLogin_DDT_py.py:37 | Entering password-->Test@111
+08/03/2023 10:30:57 PM |      INFO | test_UserLogin_DDT_py.py:39 | Clicking on login button
+08/03/2023 10:31:18 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/03/2023 10:31:18 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering email id-->test101@credence.in
+08/03/2023 10:31:19 PM |      INFO | test_UserLogin_DDT_py.py:37 | Entering password-->Test@111121
+08/03/2023 10:31:20 PM |      INFO | test_UserLogin_DDT_py.py:39 | Clicking on login button
+08/03/2023 10:31:42 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/03/2023 10:31:42 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering email id-->test101@credence.in12345
+08/03/2023 10:31:42 PM |      INFO | test_UserLogin_DDT_py.py:37 | Entering password-->Test@1111
+08/03/2023 10:31:43 PM |      INFO | test_UserLogin_DDT_py.py:39 | Clicking on login button
+08/03/2023 10:32:05 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/03/2023 10:32:18 PM |      INFO | test_UserLogin_Params.py:16 | TestCases test_login_params_003 is stared
+08/03/2023 10:32:18 PM |      INFO | test_UserLogin_Params.py:18 | Invoking browser
+08/03/2023 10:32:18 PM |      INFO | test_UserLogin_Params.py:19 | Navigating to Url
+08/03/2023 10:32:19 PM |      INFO | test_UserLogin_Params.py:22 | Clicking on login link
+08/03/2023 10:32:19 PM |      INFO | test_UserLogin_Params.py:24 | Entering Email -->test101@credence.in
+08/03/2023 10:32:19 PM |      INFO | test_UserLogin_Params.py:26 | Entering Password-->Test@111
+08/03/2023 10:32:23 PM |      INFO | test_UserLogin_Params.py:28 | Clicking on login button
+08/03/2023 10:32:23 PM |      INFO | test_UserLogin_Params.py:31 | TestCases test_login_params_003 is Passed
+08/03/2023 10:32:23 PM |      INFO | test_UserLogin_Params.py:41 | TestCases test_login_003 is completed
+08/03/2023 10:32:41 PM |      INFO | test_UserLogin_Params.py:16 | TestCases test_login_params_003 is stared
+08/03/2023 10:32:41 PM |      INFO | test_UserLogin_Params.py:18 | Invoking browser
+08/03/2023 10:32:41 PM |      INFO | test_UserLogin_Params.py:19 | Navigating to Url
+08/03/2023 10:32:42 PM |      INFO | test_UserLogin_Params.py:22 | Clicking on login link
+08/03/2023 10:32:42 PM |      INFO | test_UserLogin_Params.py:24 | Entering Email -->test1010@credence.in
+08/03/2023 10:32:42 PM |      INFO | test_UserLogin_Params.py:26 | Entering Password-->Test@111
+08/03/2023 10:32:45 PM |      INFO | test_UserLogin_Params.py:28 | Clicking on login button
+08/03/2023 10:32:55 PM |      INFO | test_UserLogin_Params.py:31 | TestCases test_login_params_003 is Passed
+08/03/2023 10:32:55 PM |      INFO | test_UserLogin_Params.py:41 | TestCases test_login_003 is completed
+08/03/2023 10:33:09 PM |      INFO | test_UserLogin_Params.py:16 | TestCases test_login_params_003 is stared
+08/03/2023 10:33:09 PM |      INFO | test_UserLogin_Params.py:18 | Invoking browser
+08/03/2023 10:33:09 PM |      INFO | test_UserLogin_Params.py:19 | Navigating to Url
+08/03/2023 10:33:11 PM |      INFO | test_UserLogin_Params.py:22 | Clicking on login link
+08/03/2023 10:33:11 PM |      INFO | test_UserLogin_Params.py:24 | Entering Email -->test101@credence.in
+08/03/2023 10:33:11 PM |      INFO | test_UserLogin_Params.py:26 | Entering Password-->Test@1111
+08/03/2023 10:33:13 PM |      INFO | test_UserLogin_Params.py:28 | Clicking on login button
+08/03/2023 10:33:23 PM |      INFO | test_UserLogin_Params.py:31 | TestCases test_login_params_003 is Passed
+08/03/2023 10:33:23 PM |      INFO | test_UserLogin_Params.py:41 | TestCases test_login_003 is completed
+08/03/2023 10:33:56 PM |      INFO | test_UserLogin_Params.py:16 | TestCases test_login_params_003 is stared
+08/03/2023 10:33:56 PM |      INFO | test_UserLogin_Params.py:18 | Invoking browser
+08/03/2023 10:33:56 PM |      INFO | test_UserLogin_Params.py:19 | Navigating to Url
+08/03/2023 10:33:57 PM |      INFO | test_UserLogin_Params.py:22 | Clicking on login link
+08/03/2023 10:33:58 PM |      INFO | test_UserLogin_Params.py:24 | Entering Email -->test1010@credence.in
+08/03/2023 10:33:58 PM |      INFO | test_UserLogin_Params.py:26 | Entering Password-->Test@1111
+08/03/2023 10:33:59 PM |      INFO | test_UserLogin_Params.py:28 | Clicking on login button
+08/03/2023 10:34:09 PM |      INFO | test_UserLogin_Params.py:31 | TestCases test_login_params_003 is Passed
+08/03/2023 10:34:09 PM |      INFO | test_UserLogin_Params.py:41 | TestCases test_login_003 is completed
+08/03/2023 10:34:24 PM |      INFO | test_UserRegistration.py:17 | TestCase test_registration_001 is started
+08/03/2023 10:34:24 PM |      INFO | test_UserRegistration.py:19 | Invoking the browser
+08/03/2023 10:34:24 PM |      INFO | test_UserRegistration.py:20 | Opening URL
+08/03/2023 10:34:30 PM |      INFO | test_UserRegistration.py:23 | Clicking on registration link
+08/03/2023 10:34:30 PM |      INFO | test_UserRegistration.py:25 | Entering name
+08/03/2023 10:34:30 PM |      INFO | test_UserRegistration.py:27 | Entering Email
+08/03/2023 10:34:30 PM |      INFO | test_UserRegistration.py:29 | Entering password
+08/03/2023 10:34:30 PM |      INFO | test_UserRegistration.py:31 | Conforming password
+08/03/2023 10:34:34 PM |      INFO | test_UserRegistration.py:33 | Clicking on registration button
+08/03/2023 10:34:34 PM |      INFO | test_UserRegistration.py:36 | TestCase test_registration_001 is Passed
+08/03/2023 10:34:35 PM |      INFO | test_UserRegistration.py:46 | TestCase test_registration_001 is completed
+08/04/2023 01:04:52 PM |      INFO | test_UserRegistration.py:17 | TestCase test_registration_001 is started
+08/04/2023 01:04:52 PM |      INFO | test_UserRegistration.py:19 | Invoking the browser
+08/04/2023 01:04:52 PM |      INFO | test_UserRegistration.py:20 | Opening URL
+08/04/2023 01:04:52 PM |      INFO | test_UserRegistration.py:23 | Clicking on registration link
+08/04/2023 01:04:52 PM |      INFO | test_UserRegistration.py:25 | Entering name
+08/04/2023 01:04:53 PM |      INFO | test_UserRegistration.py:27 | Entering Email
+08/04/2023 01:04:53 PM |      INFO | test_UserRegistration.py:29 | Entering password
+08/04/2023 01:04:53 PM |      INFO | test_UserRegistration.py:31 | Conforming password
+08/04/2023 01:04:55 PM |      INFO | test_UserRegistration.py:33 | Clicking on registration button
+08/04/2023 01:04:55 PM |      INFO | test_UserRegistration.py:36 | TestCase test_registration_001 is Passed
+08/04/2023 01:04:55 PM |      INFO | test_UserRegistration.py:46 | TestCase test_registration_001 is completed
+08/04/2023 01:14:37 PM |      INFO | test_UserRegistration.py:18 | TestCase test_registration_001 is started
+08/04/2023 01:14:37 PM |      INFO | test_UserRegistration.py:20 | Invoking the browser
+08/04/2023 01:14:37 PM |      INFO | test_UserRegistration.py:21 | Opening URL
+08/04/2023 01:14:38 PM |      INFO | test_UserRegistration.py:24 | Clicking on registration link
+08/04/2023 01:14:38 PM |      INFO | test_UserRegistration.py:26 | Entering name
+08/04/2023 01:14:38 PM |      INFO | test_UserRegistration.py:28 | Entering Email
+08/04/2023 01:14:38 PM |      INFO | test_UserRegistration.py:30 | Entering password
+08/04/2023 01:14:38 PM |      INFO | test_UserRegistration.py:32 | Conforming password
+08/04/2023 01:14:40 PM |      INFO | test_UserRegistration.py:34 | Clicking on registration button
+08/04/2023 01:14:40 PM |      INFO | test_UserRegistration.py:37 | TestCase test_registration_001 is Passed
+08/04/2023 01:14:40 PM |      INFO | test_UserRegistration.py:47 | TestCase test_registration_001 is completed
+08/04/2023 02:37:50 PM |      INFO | test_UserLogin_Params.py:16 | TestCases test_login_params_003 is stared
+08/04/2023 02:37:50 PM |      INFO | test_UserLogin_Params.py:18 | Invoking browser
+08/04/2023 02:37:50 PM |      INFO | test_UserLogin_Params.py:19 | Navigating to Url
+08/04/2023 02:37:51 PM |      INFO | test_UserLogin_Params.py:22 | Clicking on login link
+08/04/2023 02:37:51 PM |      INFO | test_UserLogin_Params.py:24 | Entering Email -->test101@credence.in
+08/04/2023 02:37:51 PM |      INFO | test_UserLogin_Params.py:26 | Entering Password-->Test@111
+08/04/2023 02:37:53 PM |      INFO | test_UserLogin_Params.py:28 | Clicking on login button
+08/04/2023 02:37:53 PM |      INFO | test_UserLogin_Params.py:31 | TestCases test_login_params_003 is Passed
+08/04/2023 02:37:53 PM |      INFO | test_UserLogin_Params.py:41 | TestCases test_login_003 is completed
+08/04/2023 02:37:58 PM |      INFO | test_UserLogin_Params.py:16 | TestCases test_login_params_003 is stared
+08/04/2023 02:37:58 PM |      INFO | test_UserLogin_Params.py:18 | Invoking browser
+08/04/2023 02:37:58 PM |      INFO | test_UserLogin_Params.py:19 | Navigating to Url
+08/04/2023 02:37:59 PM |      INFO | test_UserLogin_Params.py:22 | Clicking on login link
+08/04/2023 02:37:59 PM |      INFO | test_UserLogin_Params.py:24 | Entering Email -->test1010@credence.in
+08/04/2023 02:37:59 PM |      INFO | test_UserLogin_Params.py:26 | Entering Password-->Test@111
+08/04/2023 02:38:00 PM |      INFO | test_UserLogin_Params.py:28 | Clicking on login button
+08/04/2023 02:38:10 PM |      INFO | test_UserLogin_Params.py:31 | TestCases test_login_params_003 is Passed
+08/04/2023 02:38:10 PM |      INFO | test_UserLogin_Params.py:41 | TestCases test_login_003 is completed
+08/04/2023 02:38:15 PM |      INFO | test_UserLogin_Params.py:16 | TestCases test_login_params_003 is stared
+08/04/2023 02:38:15 PM |      INFO | test_UserLogin_Params.py:18 | Invoking browser
+08/04/2023 02:38:15 PM |      INFO | test_UserLogin_Params.py:19 | Navigating to Url
+08/04/2023 02:38:16 PM |      INFO | test_UserLogin_Params.py:22 | Clicking on login link
+08/04/2023 02:38:16 PM |      INFO | test_UserLogin_Params.py:24 | Entering Email -->test101@credence.in
+08/04/2023 02:38:16 PM |      INFO | test_UserLogin_Params.py:26 | Entering Password-->Test@1111
+08/04/2023 02:38:17 PM |      INFO | test_UserLogin_Params.py:28 | Clicking on login button
+08/04/2023 02:38:27 PM |      INFO | test_UserLogin_Params.py:31 | TestCases test_login_params_003 is Passed
+08/04/2023 02:38:27 PM |      INFO | test_UserLogin_Params.py:41 | TestCases test_login_003 is completed
+08/04/2023 02:38:31 PM |      INFO | test_UserLogin_Params.py:16 | TestCases test_login_params_003 is stared
+08/04/2023 02:38:31 PM |      INFO | test_UserLogin_Params.py:18 | Invoking browser
+08/04/2023 02:38:31 PM |      INFO | test_UserLogin_Params.py:19 | Navigating to Url
+08/04/2023 02:38:32 PM |      INFO | test_UserLogin_Params.py:22 | Clicking on login link
+08/04/2023 02:38:32 PM |      INFO | test_UserLogin_Params.py:24 | Entering Email -->test1010@credence.in
+08/04/2023 02:38:32 PM |      INFO | test_UserLogin_Params.py:26 | Entering Password-->Test@1111
+08/04/2023 02:38:33 PM |      INFO | test_UserLogin_Params.py:28 | Clicking on login button
+08/04/2023 02:38:43 PM |      INFO | test_UserLogin_Params.py:31 | TestCases test_login_params_003 is Passed
+08/04/2023 02:38:43 PM |      INFO | test_UserLogin_Params.py:41 | TestCases test_login_003 is completed
+08/04/2023 03:06:02 PM |      INFO | test_UserRegistration.py:17 | TestCase test_registration_001 is started
+08/04/2023 03:06:02 PM |      INFO | test_UserRegistration.py:19 | Invoking the browser
+08/04/2023 03:06:02 PM |      INFO | test_UserRegistration.py:20 | Opening URL
+08/04/2023 03:06:03 PM |      INFO | test_UserRegistration.py:23 | Clicking on registration link
+08/04/2023 03:06:03 PM |      INFO | test_UserRegistration.py:25 | Entering name
+08/04/2023 03:06:03 PM |      INFO | test_UserRegistration.py:27 | Entering Email
+08/04/2023 03:06:03 PM |      INFO | test_UserRegistration.py:29 | Entering password
+08/04/2023 03:06:03 PM |      INFO | test_UserRegistration.py:31 | Conforming password
+08/04/2023 03:06:06 PM |      INFO | test_UserRegistration.py:33 | Clicking on registration button
+08/04/2023 03:06:06 PM |      INFO | test_UserRegistration.py:36 | TestCase test_registration_001 is Passed
+08/04/2023 03:06:06 PM |      INFO | test_UserRegistration.py:46 | TestCase test_registration_001 is completed
