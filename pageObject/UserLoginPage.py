@@ -28,5 +28,4 @@ class UserLoginClass:
 
     def logout_btn(self):
         self.driver.find_element(*UserLoginClass.linkLogout_XPATH).click()
-        time.sleep(2)
         self.driver.find_element(*UserLoginClass.btnLogout_XPATH).click()

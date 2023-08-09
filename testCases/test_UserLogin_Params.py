@@ -5,16 +5,19 @@ from allure_commons.types import AttachmentType
 from pageObject.UserLoginPage import UserLoginClass
 from pageObject.UserRegistrationPage import UserRegistrationClass
 from utilities.Logger import LogGen
+from utilities.ReadConfigFile import ReadConfig
 
 
 class TestLoginParams:
     log = LogGen.loggen()
+    baseURL = ReadConfig.get_application_url()
 
     @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.regression
     def test_login_params_003(self, setup, data_for_login):
         self.log.info("TestCases test_login_params_003 is stared")
         self.driver = setup
+        self.driver.get(self.baseURL)
         self.log.info("Invoking browser")
         self.log.info("Navigating to Url")
         self.lp = UserLoginClass(self.driver)

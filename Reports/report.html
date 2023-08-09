@@ -253,9 +253,9 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 07-Aug-2023 at 16:42:28 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 09-Aug-2023 at 17:09:02 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Summary</h2>
-    <p>7 tests ran in 94.02 seconds. </p>
+    <p>7 tests ran in 27.73 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -270,139 +270,63 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
-          <td class="col-name">testCases/test_UserLogin_DDT_py.py::TestLoginDDT::test_login_ddt_003</td>
-          <td class="col-duration">74.02</td>
+          <td class="col-name">test_UserLogin_DDT_py.py::TestLoginDDT::test_login_ddt_003</td>
+          <td class="col-duration">7.35</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">[gw1] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/>[gw1] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw1] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/><br/>self = &lt;testCases.test_UserLogin_DDT_py.TestLoginDDT object at 0x000002523D2093D0&gt;<br/>setup = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;a990341a302cc51fbbacc7e4237dff86&quot;)&gt;<br/><br/>    @allure.severity(allure.severity_level.CRITICAL)<br/>    @pytest.mark.regression<br/>    def test_login_ddt_003(self, setup):<br/>        self.log.info(&quot;TestCase test_login_DDT_003 is started&quot;)<br/>        self.driver = setup<br/>        self.log.info(&quot;Invoking browser&quot;)<br/>        self.log.info(&quot;Navigating to URL&quot;)<br/>        self.lp = UserLoginClass(self.driver)<br/>        self.rows = XLutilites.getRowCount(self.path, &quot;Sheet1&quot;)<br/>        login_status = []<br/>        for r in range(2, self.rows + 1):<br/>            self.username = XLutilites.readData(self.path, &quot;Sheet1&quot;, r, 1)<br/>            self.password = XLutilites.readData(self.path, &quot;Sheet1&quot;, r, 2)<br/>            self.exp_result = XLutilites.readData(self.path, &quot;Sheet1&quot;, r, 3)<br/>            self.lp.link_login()<br/>            self.log.info(&quot;Clicking on login link&quot;)<br/>&gt;           self.lp.email_id(self.username)<br/><br/>testCases\test_UserLogin_DDT_py.py:34: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>pageObject\UserLoginPage.py:21: in email_id<br/>    self.driver.find_element(*UserLoginClass.textEmail_ID).send_keys(mail)<br/>venv\Lib\site-packages\selenium\webdriver\remote\webelement.py:232: in send_keys<br/>    Command.SEND_KEYS_TO_ELEMENT, {&quot;text&quot;: &quot;&quot;.join(keys_to_typing(value)), &quot;value&quot;: keys_to_typing(value)}<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>value = (None,)<br/><br/>    def keys_to_typing(value: Iterable[AnyKey]) -&gt; List[str]:<br/>        &quot;&quot;&quot;Processes the values that will be typed in the element.&quot;&quot;&quot;<br/>        _typing: List[str] = []<br/>        for val in value:<br/>            if isinstance(val, Keys):<br/>                # Todo: Does this even work?<br/>                _typing.append(val)<br/>            elif isinstance(val, (int, float)):<br/>                val = str(val)<br/>                for i in range(len(val)):<br/>                    _typing.append(val[i])<br/>            else:<br/>&gt;               for i in range(len(val)):<br/><span class="error">E               TypeError: object of type &#x27;NoneType&#x27; has no len()</span><br/><br/>venv\Lib\site-packages\selenium\webdriver\common\utils.py:140: TypeError[gw1] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>Headless mode
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     TestLoginDDT:test_UserLogin_DDT_py.py:21 TestCase test_login_DDT_003 is started
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:23 Invoking browser
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:24 Navigating to URL
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:35 Entering email id--&gt;test101@credence.in
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:37 Entering password--&gt;Test@111
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:39 Clicking on login button
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:35 Entering email id--&gt;test101@credence.in12345
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:37 Entering password--&gt;Test@111
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:39 Clicking on login button
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:35 Entering email id--&gt;test101@credence.in
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:37 Entering password--&gt;Test@111121
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:39 Clicking on login button
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:35 Entering email id--&gt;test101@credence.in12345
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:37 Entering password--&gt;Test@1111
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:39 Clicking on login button
-INFO     TestLoginDDT:test_UserLogin_DDT_py.py:33 Clicking on login link<br/></div></td></tr></tbody>
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testCases/test_UserLogin.py::TestLogin::test_login_002</td>
-          <td class="col-duration">7.69</td>
+          <td class="col-name">test_UserLogin.py::TestLogin::test_login_002</td>
+          <td class="col-duration">3.83</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">[gw0] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/>[gw0] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw0] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw0] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>Headless mode
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     TestLogin:test_UserLogin.py:19 Testcase test_login_002 is started
-INFO     TestLogin:test_UserLogin.py:21 Invoking the browser
-INFO     TestLogin:test_UserLogin.py:22 Opening the Url
-INFO     TestLogin:test_UserLogin.py:25 Clicking on login link
-INFO     TestLogin:test_UserLogin.py:27 Entering the username --&gt;test101@credence.in
-INFO     TestLogin:test_UserLogin.py:29 Entering the password --&gt;Test@111
-INFO     TestLogin:test_UserLogin.py:31 Clicking on login button
-INFO     TestLogin:test_UserLogin.py:35 TestCase test_login_002 is Passed 
-INFO     TestLogin:test_UserLogin.py:45 TestCase test_login_002 is Completed<br/></div></td></tr></tbody>
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testCases/test_UserLogin_Params.py::TestLoginParams::test_login_params_003[data_for_login0]</td>
-          <td class="col-duration">8.16</td>
+          <td class="col-name">test_UserLogin_Params.py::TestLoginParams::test_login_params_003[data_for_login0]</td>
+          <td class="col-duration">3.29</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">[gw2] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/>[gw2] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw2] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw2] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>Headless mode
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     TestLoginParams:test_UserLogin_Params.py:16 TestCases test_login_params_003 is stared
-INFO     TestLoginParams:test_UserLogin_Params.py:18 Invoking browser
-INFO     TestLoginParams:test_UserLogin_Params.py:19 Navigating to Url
-INFO     TestLoginParams:test_UserLogin_Params.py:22 Clicking on login link
-INFO     TestLoginParams:test_UserLogin_Params.py:24 Entering Email --&gt;test101@credence.in
-INFO     TestLoginParams:test_UserLogin_Params.py:26 Entering Password--&gt;Test@111
-INFO     TestLoginParams:test_UserLogin_Params.py:28 Clicking on login button
-INFO     TestLoginParams:test_UserLogin_Params.py:31 TestCases test_login_params_003 is Passed
-INFO     TestLoginParams:test_UserLogin_Params.py:41 TestCases test_login_003 is completed<br/></div></td></tr></tbody>
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testCases/test_UserLogin_Params.py::TestLoginParams::test_login_params_003[data_for_login1]</td>
-          <td class="col-duration">17.64</td>
+          <td class="col-name">test_UserLogin_Params.py::TestLoginParams::test_login_params_003[data_for_login1]</td>
+          <td class="col-duration">3.11</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">[gw3] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/>[gw3] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw3] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw3] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>Headless mode
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     TestLoginParams:test_UserLogin_Params.py:16 TestCases test_login_params_003 is stared
-INFO     TestLoginParams:test_UserLogin_Params.py:18 Invoking browser
-INFO     TestLoginParams:test_UserLogin_Params.py:19 Navigating to Url
-INFO     TestLoginParams:test_UserLogin_Params.py:22 Clicking on login link
-INFO     TestLoginParams:test_UserLogin_Params.py:24 Entering Email --&gt;test1010@credence.in
-INFO     TestLoginParams:test_UserLogin_Params.py:26 Entering Password--&gt;Test@111
-INFO     TestLoginParams:test_UserLogin_Params.py:28 Clicking on login button
-INFO     TestLoginParams:test_UserLogin_Params.py:31 TestCases test_login_params_003 is Passed
-INFO     TestLoginParams:test_UserLogin_Params.py:41 TestCases test_login_003 is completed<br/></div></td></tr></tbody>
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testCases/test_UserLogin_Params.py::TestLoginParams::test_login_params_003[data_for_login2]</td>
-          <td class="col-duration">13.01</td>
+          <td class="col-name">test_UserLogin_Params.py::TestLoginParams::test_login_params_003[data_for_login2]</td>
+          <td class="col-duration">2.98</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">[gw0] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/>[gw0] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw0] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw0] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>Headless mode
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     TestLoginParams:test_UserLogin_Params.py:16 TestCases test_login_params_003 is stared
-INFO     TestLoginParams:test_UserLogin_Params.py:18 Invoking browser
-INFO     TestLoginParams:test_UserLogin_Params.py:19 Navigating to Url
-INFO     TestLoginParams:test_UserLogin_Params.py:22 Clicking on login link
-INFO     TestLoginParams:test_UserLogin_Params.py:24 Entering Email --&gt;test101@credence.in
-INFO     TestLoginParams:test_UserLogin_Params.py:26 Entering Password--&gt;Test@1111
-INFO     TestLoginParams:test_UserLogin_Params.py:28 Clicking on login button
-INFO     TestLoginParams:test_UserLogin_Params.py:31 TestCases test_login_params_003 is Passed
-INFO     TestLoginParams:test_UserLogin_Params.py:41 TestCases test_login_003 is completed<br/></div></td></tr></tbody>
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testCases/test_UserRegistration.py::TestRegistration::test_registration_001</td>
-          <td class="col-duration">4.27</td>
+          <td class="col-name">test_UserLogin_Params.py::TestLoginParams::test_login_params_003[data_for_login3]</td>
+          <td class="col-duration">2.67</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">[gw2] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/>[gw2] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw2] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw2] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>Headless mode
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     TestRegistration:test_UserRegistration.py:17 TestCase test_registration_001 is started
-INFO     TestRegistration:test_UserRegistration.py:19 Invoking the browser
-INFO     TestRegistration:test_UserRegistration.py:20 Opening URL
-INFO     TestRegistration:test_UserRegistration.py:23 Clicking on registration link
-INFO     TestRegistration:test_UserRegistration.py:25 Entering name
-INFO     TestRegistration:test_UserRegistration.py:27 Entering Email
-INFO     TestRegistration:test_UserRegistration.py:29 Entering password
-INFO     TestRegistration:test_UserRegistration.py:31 Conforming password
-INFO     TestRegistration:test_UserRegistration.py:33 Clicking on registration button
-INFO     TestRegistration:test_UserRegistration.py:36 TestCase test_registration_001 is Passed
-INFO     TestRegistration:test_UserRegistration.py:46 TestCase test_registration_001 is completed<br/></div></td></tr></tbody>
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testCases/test_UserLogin_Params.py::TestLoginParams::test_login_params_003[data_for_login3]</td>
-          <td class="col-duration">13.90</td>
+          <td class="col-name">test_UserRegistration.py::TestRegistration::test_registration_001</td>
+          <td class="col-duration">3.75</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">[gw1] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/>[gw1] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw1] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe[gw1] win32 -- Python 3.11.2 C:\Users\lukesh ade\PycharmProjects\automationProject\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>Headless mode
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     TestLoginParams:test_UserLogin_Params.py:16 TestCases test_login_params_003 is stared
-INFO     TestLoginParams:test_UserLogin_Params.py:18 Invoking browser
-INFO     TestLoginParams:test_UserLogin_Params.py:19 Navigating to Url
-INFO     TestLoginParams:test_UserLogin_Params.py:22 Clicking on login link
-INFO     TestLoginParams:test_UserLogin_Params.py:24 Entering Email --&gt;test1010@credence.in
-INFO     TestLoginParams:test_UserLogin_Params.py:26 Entering Password--&gt;Test@1111
-INFO     TestLoginParams:test_UserLogin_Params.py:28 Clicking on login button
-INFO     TestLoginParams:test_UserLogin_Params.py:31 TestCases test_login_params_003 is Passed
-INFO     TestLoginParams:test_UserLogin_Params.py:41 TestCases test_login_003 is completed<br/></div></td></tr></tbody></table></body></html>
+            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>

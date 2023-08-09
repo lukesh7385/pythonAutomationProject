@@ -18,9 +18,6 @@ def setup(browser):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("headless")
         driver = webdriver.Chrome(options=chrome_options)
-    driver.get("https://automation.credence.in/")
-    driver.implicitly_wait(10)
-    driver.maximize_window()
     return driver
 
 

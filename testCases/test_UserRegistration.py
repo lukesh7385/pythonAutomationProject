@@ -10,12 +10,14 @@ from utilities.ReadConfigFile import ReadConfig
 class TestRegistration:
     log = LogGen.loggen()
     password = ReadConfig.get_password()
+    baseURL = ReadConfig.get_application_url()
 
     @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.sanity
     def test_registration_001(self, setup):
         self.log.info("TestCase test_registration_001 is started")
         self.driver = setup
+        self.driver.get(self.baseURL)
         self.log.info("Invoking the browser")
         self.log.info("Opening URL")
         self.rp = UserRegistrationClass(self.driver)

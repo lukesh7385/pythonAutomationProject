@@ -10,6 +10,7 @@ from utilities.ReadConfigFile import ReadConfig
 
 class TestLogin:
     log = LogGen.loggen()
+    baseURL = ReadConfig.get_application_url()
     username = ReadConfig.get_username()
     password = ReadConfig.get_password()
 
@@ -18,6 +19,7 @@ class TestLogin:
     def test_login_002(self, setup):
         self.log.info("Testcase test_login_002 is started")
         self.driver = setup
+        self.driver.get(self.baseURL)
         self.log.info("Invoking the browser")
         self.log.info("Opening the Url")
         self.lp = UserLoginClass(self.driver)

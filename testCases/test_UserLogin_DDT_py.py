@@ -10,6 +10,7 @@ from utilities.ReadConfigFile import ReadConfig
 
 
 class TestLoginDDT:
+    baseURL = ReadConfig.get_application_url()
     username = ReadConfig.get_username()
     password = ReadConfig.get_password()
     log = LogGen.loggen()
@@ -19,16 +20,27 @@ class TestLoginDDT:
     @pytest.mark.regression
     def test_login_ddt_003(self, setup):
         self.log.info("TestCase test_login_DDT_003 is started")
+        self.log.info("verifying Login DDT test")
         self.driver = setup
+        self.driver.get(self.baseURL)
         self.log.info("Invoking browser")
         self.log.info("Navigating to URL")
+
         self.lp = UserLoginClass(self.driver)
         self.rows = XLutilites.getRowCount(self.path, "Sheet1")
-        login_status = []
+        list_status = []  # Empty list variable
+
         for r in range(2, self.rows + 1):
-            self.username = XLutilites.readData(self.path, "Sheet1", r, 1)
-            self.password = XLutilites.readData(self.path, "Sheet1", r, 2)
-            self.exp_result = XLutilites.readData(self.path, "Sheet1", r, 3)
+            try:
+                self.username = XLutilites.readData(self.path, 'Sheet1', r, 1)
+                self.password = XLutilites.readData(self.path, 'Sheet1', r, 2)
+                self.exp_result = XLutilites.readData(self.path, 'Sheet1', r, 3)
+            except Exception as e:
+                self.log.error(f"An error occurred in row {r}: {e}")
+
+            if self.username is not None and self.password is not None:
+                self.log.info(f"Login status after iteration {r}: {list_status}")
+
             self.lp.link_login()
             self.log.info("Clicking on login link")
             self.lp.email_id(self.username)
@@ -40,29 +52,29 @@ class TestLoginDDT:
             self.rp = UserRegistrationClass(self.driver)
 
             if self.rp.status():
-                if self.exp_result == "Pass":
-                    login_status.append("Pass")
-                    XLutilites.writeData(self.path, "Sheet1", r, 4, "Pass")
+                if self.exp_result == 'Pass':
+                    list_status.append('Pass')
+                    XLutilites.writeData(self.path, "Sheet1", r, 4, 'Pass')
                     self.driver.save_screenshot(".\\Screenshots\\test_login_DDT_003_pass.png")
                     self.lp.logout_btn()
-                elif self.exp_result == "Fail":
-                    login_status.append("Fail")
-                    XLutilites.writeData(self.path, "Sheet1", r, 4, "Fail")
+                elif self.exp_result == 'Fail':
+                    list_status.append('Fail')
+                    XLutilites.writeData(self.path, "Sheet1", r, 4, 'Fail')
                     self.driver.save_screenshot(".\\Screenshots\\test_login_DDT_003_pass.png")
                     self.lp.logout_btn()
             elif not self.rp.status():
-                if self.exp_result == "Pass":
-                    login_status.append("Fail")
-                    XLutilites.writeData(self.path, "Sheet1", r, 4, "Fail")
-                    self.driver.refresh()
+                if self.exp_result == 'Pass':
+                    list_status.append('Fail')
+                    XLutilites.writeData(self.path, "Sheet1", r, 4, 'Fail')
                     self.driver.save_screenshot(".\\Screenshots\\test_login_DDT_003_fail.png")
-                elif self.exp_result == "Fail":
-                    login_status.append("Pass")
-                    XLutilites.writeData(self.path, "Sheet1", r, 4, "Pass")
                     self.driver.refresh()
-                    self.driver.save_screenshot(".\\Screenshots\\test_login_DDT_003_fail.png")
+                elif self.exp_result == 'Fail':
+                    list_status.append('Pass')
+                    XLutilites.writeData(self.path, "Sheet1", r, 4, 'Pass')
+                    self.driver.save_screenshot(".\\Screenshots\\test_login_DDT_003_Pass.png")
+                    self.driver.refresh()
 
-        if "Fail" not in login_status:
+        if 'Fail' not in list_status:
             self.log.info("TestCases test_login_DDT_003 is passed")
             self.driver.close()
             assert True
