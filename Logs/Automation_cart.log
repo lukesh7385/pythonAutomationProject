@@ -1032,3 +1032,23 @@
 08/07/2023 04:45:43 PM |      INFO | test_UserLogin_DDT_py.py:37 | Entering password-->Test@1111
 08/07/2023 04:45:44 PM |      INFO | test_UserLogin_DDT_py.py:39 | Clicking on login button
 08/07/2023 04:46:04 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/09/2023 01:25:01 PM |      INFO | test_UserLogin_DDT_py.py:21 | TestCase test_login_DDT_003 is started
+08/09/2023 01:25:01 PM |      INFO | test_UserLogin_DDT_py.py:23 | Invoking browser
+08/09/2023 01:25:01 PM |      INFO | test_UserLogin_DDT_py.py:24 | Navigating to URL
+08/09/2023 01:25:01 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/09/2023 01:25:01 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering email id-->test101@credence.in
+08/09/2023 01:25:01 PM |      INFO | test_UserLogin_DDT_py.py:37 | Entering password-->Test@111
+08/09/2023 01:25:02 PM |      INFO | test_UserLogin_DDT_py.py:39 | Clicking on login button
+08/09/2023 01:25:05 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/09/2023 01:25:05 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering email id-->test101@credence.in12345
+08/09/2023 01:25:05 PM |      INFO | test_UserLogin_DDT_py.py:37 | Entering password-->Test@111
+08/09/2023 01:25:05 PM |      INFO | test_UserLogin_DDT_py.py:39 | Clicking on login button
+08/09/2023 01:25:26 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/09/2023 01:25:26 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering email id-->test101@credence.in
+08/09/2023 01:25:26 PM |      INFO | test_UserLogin_DDT_py.py:37 | Entering password-->Test@111121
+08/09/2023 01:25:26 PM |      INFO | test_UserLogin_DDT_py.py:39 | Clicking on login button
+08/09/2023 01:25:47 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
+08/09/2023 01:25:47 PM |      INFO | test_UserLogin_DDT_py.py:35 | Entering email id-->test101@credence.in12345
+08/09/2023 01:25:47 PM |      INFO | test_UserLogin_DDT_py.py:37 | Entering password-->Test@1111
+08/09/2023 01:25:47 PM |      INFO | test_UserLogin_DDT_py.py:39 | Clicking on login button
+08/09/2023 01:26:08 PM |      INFO | test_UserLogin_DDT_py.py:33 | Clicking on login link
