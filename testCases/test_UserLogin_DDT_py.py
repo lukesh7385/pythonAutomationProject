@@ -62,7 +62,7 @@ class TestLoginDDT:
                     self.driver.refresh()
                     self.driver.save_screenshot(".\\Screenshots\\test_login_DDT_003_fail.png")
 
-        if 'Fail' not in login_status:
+        if "Fail" not in login_status:
             self.log.info("TestCases test_login_DDT_003 is passed")
             self.driver.close()
             assert True

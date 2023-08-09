@@ -11,7 +11,7 @@ class TestRegistration:
     log = LogGen.loggen()
     password = ReadConfig.get_password()
 
-    @allure.severity(allure.severity_level.BLOCKER)
+    @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.sanity
     def test_registration_001(self, setup):
         self.log.info("TestCase test_registration_001 is started")
